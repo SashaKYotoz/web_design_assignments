@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title> Course of Basic Web Design </title>
+      <meta charset="utf-8">
+      <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="stylesheet" type="text/css" href="style.css">
+   </head>
+   <body class="body">
+      <div class="container">
+         <div class="row">
+            <div class="col-md-12">
+               <div class="header">
+                  <h1>Math Test Form Assignment</h1>
+               </div>
+            </div>
+         </div>
+         <div class="row">
+            <div class="col-lg-12 col-md-8 col-sm-12">
+               <div class="left-content">
+                  <div class="card">
+                     <form>
+                        <div class="card-header">
+                           Full name:
+                           <input type="text">
+                           Data:
+                           <input type="text" placeholder="d/m/y">
+                        </div>
+                        <div class="card-body">
+                           <b>
+                              <p>Trapezoids ABCD and ABC1D1 (AB is the base of trapezoids) lie in different planes. Points M, N, K, P are the midpoints of segments AD, CB, AD1, BC1, respectively. Indicate what is the mutual placement of lines MN and PK</p>
+                           </b>
+                              <input type="radio" name="variant">
+                              parallel <br>
+                              <input type="radio" name="variant">
+                              another answer <br>
+                              <input type="radio" name="variant">
+                              passing straight lines <br>
+                              <input type="radio" name="variant">
+                              lines intersect <br>
+                           <b>
+                              <p>Find the zeros of funcion</p>
+                           </b>
+                           <math>
+                              <mi>f</mi>
+                              <mo stretchy="false">(</mo>
+                              <mi>x</mi>
+                              <mo stretchy="false">)</mo>
+                              <mo>=</mo>
+                              <mn>2</mn>
+                              <msup>
+                                 <mi>x</mi>
+                                 <mn>2</mn>
+                              </msup>
+                              <mo>&#x2212;</mo>
+                              <mi>x</mi>
+                              <mo>&#x2212;</mo>
+                              <mn>6</mn>
+                           </math>
+                           <br>
+                           <select>
+                              <option selected>2 and –1,5</option>
+                              <option>1 and –1,5</option>
+                              <option>–1,5</option>
+                           </select>
+                           <b>
+                              <p>Find the set of values of the function:</p>
+                           </b>
+                           <math>
+                              <mi>f</mi>
+                              <mo stretchy="false">(</mo>
+                              <mi>x</mi>
+                              <mo stretchy="false">)</mo>
+                              <mo>=</mo>
+                              <mfrac>
+                                 <mn>1</mn>
+                                 <mrow>
+                                    <mn>1</mn>
+                                    <mstyle scriptlevel="0">
+                                       <mspace width="thinmathspace"></mspace>
+                                    </mstyle>
+                                    <mo>+</mo>
+                                    <mstyle scriptlevel="0">
+                                       <mspace width="thinmathspace"></mspace>
+                                    </mstyle>
+                                    <msup>
+                                       <mi>x</mi>
+                                       <mn>2</mn>
+                                    </msup>
+                                 </mrow>
+                              </mfrac>
+                           </math>
+                           <br>
+                           <input type="radio" name="answer">
+                           <math>
+                              <mo stretchy="false">(</mo>
+                              <mn>0</mn>
+                              <mo>;</mo>
+                              <mfrac>
+                                 <mn>1</mn>
+                                 <mn>2</mn>
+                              </mfrac>
+                              <mo stretchy="false">)</mo>
+                           </math>
+                           <br/>
+                           <input type="radio" name="answer">
+                           <math>
+                              <mo stretchy="false">(</mo>
+                              <mn>0</mn>
+                              <mo>;</mo>
+                              <mo>+</mo>
+                              <mi mathvariant="normal">&#x221E;</mi>
+                              <mo stretchy="false">)</mo>
+                           </math>
+                           <br/>
+                           <input type="radio" name="answer">
+                           <math>
+                              <mo stretchy="false">(</mo>
+                              <mn>0</mn>
+                              <mo>;</mo>
+                              <mn>1</mn>
+                              <mo stretchy="false">]</mo>
+                           </math>
+                           <b>
+                              <p>Point S does not belong to the plane of triangle ABC. Points M and N are the midpoints of segments SA and SC, and K and L are the midpoints of segments AB and BC, respectively. Justify the mutual placement of lines SC and MB.</p>
+                           </b>
+                           <br>
+                           <textarea rows="8" cols="80"></textarea>
+                           <br>
+                           <a data-toggle="modal" href="#ModalWindow1">
+                              <button type="submit">Submit</button>
+                           </a>
+                        </div>
+                     </form>
+                  </div>
+                  <br>
+                  <div class="card">
+                     <div class="card-header">
+                        <h2>Website links</h2>
+                     </div>
+                     <div class="card-body">
+                        <i>
+                        <a href="index.html">Back to main page</a>
+                        </i>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="modal fade" id="ModalWindow1">
+         <div class="modal-dialog">
+            <div class="modal-content">
+               <div class="modal-header">
+                  <h5 class="modal-title">Your form was submitted</h5>
+                  <button type="button" class="close" data-dismiss="modal">x</button>
+               </div>
+               <div class="modal-body">
+                  <form>
+                     <fieldset>
+                        <legend>Feedback</legend>
+                        <p>How would you rate test?</p>
+                           <input type="radio" name="rate" value="rate">Pretty bad
+                           <input type="radio" name="rate" value="rate">Good
+                           <input type="radio" name="rate" value="rate">Great
+                     </fieldset>
+                  </form>
+               </div>
+               <div class="modal-footer">
+                  <a href="index.html">
+                     <button type="button">Back to main page</button>
+                  </a>
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+               </div>
+            </div>
+         </div>
+      </div>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+   </body>
+</html>
