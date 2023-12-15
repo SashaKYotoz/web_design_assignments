@@ -1,0 +1,66 @@
+.header {
+	height: 15vh;
+	background-color: peru;
+	margin-top: 10px;
+	border-radius: 10px;
+	text-align: center;
+	padding: 45px;
+}
+body{
+    background-image:repeating-linear-gradient(135deg, 
+    peru, hsl(45, 100%, 45%) 5%, tan 15%);
+    background-size: 50% 200%;
+    background-color: peru;
+}
+
+.card .card-header {
+	background-color: #fed13699;
+	transition: 0.2s;
+}
+
+.card .card-header:hover {
+	background-color: #fed136;
+	transition: 0.2s;
+}
+.review-card{
+	display: inline-flex;
+	height: 400px;
+	width: 300px;
+	background-color: skyblue;
+	box-shadow: 10px 5px 3px black;
+}
+.invisibility{
+	color: rgba(255, 255, 255, 0.0);
+}
+.invisibility:hover{
+	color: rgba(255, 255, 255, 1.0);
+}
+.review-card:nth-child(even){
+	background-color: darkblue;
+	background-image: repeating-linear-gradient(45deg, 
+    blue, deepskyblue 25%);
+} 
+.review-card:hover{
+	transition: 1s;
+	transform: scale3d(1.25, 1.25, 2.0) translate3d(0px, 25px, 25px) rotate3d(1, 1, 0, 15deg);
+	z-index: 300;
+}
+
+.img {
+	background-color: #aaa;
+	padding: 20px;
+	background-size: cover;
+	background-position: center;
+}
+
+
+i {
+	font-size: 30px !important;
+	padding-right: 15px;
+	color: black	
+}
+
+a {
+	text-decoration: none !important;
+	color: black;
+}
